@@ -6,7 +6,7 @@
     - name: install yum-utils
       yum: name=yum-utils state=present
     - name: add repository
-      command: sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+      command: yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
     - name: refresh cache 
       command: yum makecache fast
     - name: install docker-ce
