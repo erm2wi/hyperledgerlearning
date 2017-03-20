@@ -1,7 +1,6 @@
 ---
 - name: Install docker
   hosts: all
-  remote_user: centos
   become: yes
   tasks:
     - name: install yum-utils
