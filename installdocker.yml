@@ -13,6 +13,8 @@
         enabled: yes
         gpgcheck: yes
         gpgkey: https://download.docker.com/linux/centos/gpg
+    - name: refresh cache 
+      command: yum makecache fast
     - name: install docker-ce
       yum: name=docker-ce state=present update_cache=yes
     - name: start docker service
