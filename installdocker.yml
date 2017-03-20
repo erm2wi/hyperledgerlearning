@@ -11,6 +11,6 @@
         description: setup docker-ce repo
         baseurl: https://download.docker.com/linux/centos/docker-ce.repo
     - name: install docker-ce
-      yum: name=docker-ce state=present
+      yum: name=docker-ce state=present update_cache=yes
     - name: start docker service
       systemd: state=started name=docker
