@@ -5,14 +5,8 @@
   tasks:
     - name: install yum-utils
       yum: name=yum-utils state=present
-    - name: setup docker stable repository
-      yum_repository:
-        name: docker-ce
-        description: setup docker-ce repo
-        baseurl: https://download.docker.com/linux/centos/7/$basearch/stable
-        enabled: yes
-        gpgcheck: yes
-        gpgkey: https://download.docker.com/linux/centos/gpg
+    - name: add repository
+      command: sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
     - name: refresh cache 
       command: yum makecache fast
     - name: install docker-ce
