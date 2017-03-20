@@ -13,3 +13,8 @@
       yum: name=docker-ce state=present update_cache=yes
     - name: start docker service
       systemd: state=started name=docker
+    - name: get docker-compose
+      get_url:
+        url: https://github.com/docker/compose/releases/download/1.11.2/docker-compose-$(uname -s)-$(uname -m)
+        dest: /usr/local/bin/docker-compose
+        mode: u+rwx
