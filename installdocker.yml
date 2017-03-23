@@ -18,7 +18,7 @@
     - name: install pip
       yum: name=python-pip state=present
     - name: install python dev
-      yum: name=python-dev state=present
+      yum: name=python-devel state=present
     - name: install docker-ce
       yum: name=docker-ce state=present update_cache=yes
     - name: start docker service
