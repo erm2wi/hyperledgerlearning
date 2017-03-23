@@ -12,11 +12,11 @@
     - name: Download Go
       get_url: 
         url: "https://storage.googleapis.com/golang/go{{ golang_version }}.{{ golang_os }}-{{ golang_arch }}.tar.gz" 
-        dest: "/usr/local/src/go{{ golang_version }}.{{ golang_os }}-{{ golang_arch }}.tar.gz"
+        dest: "/home/{{ansible_ssh_user}}/go{{ golang_version }}.{{ golang_os }}-{{ golang_arch }}.tar.gz"
 
     - name: Extract and install Go
       unarchive: 
-        src: "/usr/local/src/go{{ golang_version }}.{{ golang_os }}-{{ golang_arch }}.tar.gz"
+        src: "/home/{{ansible_ssh_user}}/go{{ golang_version }}.{{ golang_os }}-{{ golang_arch }}.tar.gz"
         dest: /usr/local/
         copy: no
         become: yes
