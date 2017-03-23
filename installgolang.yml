@@ -17,12 +17,10 @@
     - name: Extract and install Go
       unarchive: 
         src: "/home/{{ansible_ssh_user}}/go{{ golang_version }}.{{ golang_os }}-{{ golang_arch }}.tar.gz"
-        dest: "/home/{{ansible_ssh_user}}/"
+        dest: "/usr/local/"
         copy: no
       become: yes
-    - name: Copy Go to /usr/local
-      copy: src="/home/{{ansible_ssh_user}}/go/"  dest=/usr/local/  remote_src=True
-      become: yes  
+      
     - name: Symlink Go into /usr/local/bin
       become: yes
       file: src="/usr/local/go/bin/{{ item }}" dest="/usr/local/bin/{{ item }}" state=link 
