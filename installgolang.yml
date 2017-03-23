@@ -28,3 +28,7 @@
         - gofmt
     - name: install git 
       yum: name=git state=present
+    - name: make directory
+      file: name="{{golang_path}}/src/github.com/hyperledger state=directory"
+    - name: git clone the resository
+      command: git clone ssh://halminhu@gerrit.hyperledger.org:29418/fabric && scp -p -P 29418 halminhu@gerrit.hyperledger.org:hooks/commit-msg fabric/.git/hooks/
