@@ -20,14 +20,13 @@
         dest: "/usr/local/"
         copy: no
       become: yes
-      
-    - name: Symlink Go into /usr/local/bin
-      become: yes
-      file: src="/usr/local/go/bin/{{ item }}" dest="/usr/local/bin/{{ item }}" state=link 
-      with_items:
-        - go
-        - godoc
-        - gofmt
+
+   #- name: Symlink Go into /usr/local/bin
+    #  become: yes
+     # file: src="/usr/local/go/bin/{{ item }}" dest="/usr/local/bin/{{ item }}" state=link 
+      #with_items:
+       #- godoc
+       # - gofmt
 
     #- name: install git 
     #  yum: name=git state=present
