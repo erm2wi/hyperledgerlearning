@@ -37,7 +37,7 @@
     - name: Extract the tar
       unarchive: 
         src: "/home/{{ansible_ssh_user}}/sfhackfest.tar.gz"
-        dest: /home/{{ansible_ssh_user}}/sfhackfest/
+        dest: /home/{{ansible_ssh_user}}/
         copy: no
     # Not clone the source code at this time
     #- name: git clone the resository
