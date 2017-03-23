@@ -29,7 +29,7 @@
       yum: name=gcc state=present
     - name: install pip
       yum: name=python-pip state=present
-    - name: install python dev and libssl
+    - name: install python dev and libssl dev
       yum: name=python-devel,openssl-devel state=present
     - name: update pip
       command: pip install --upgrade pip
