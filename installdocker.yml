@@ -1,3 +1,4 @@
+# Prepare environment for hyperledger
 ---
 - name: Install docker
   hosts: all
@@ -7,18 +8,13 @@
       yum: name=yum-utils state=present
     - name: install epel gpg key
       command: rpm --import http://dl.fedoraproject.org/pub/epel/RPM-GPG-KEY-EPEL-7
-    - name: Add repository
+    - name: Add epel repository
       yum: name=epel-release state=present
-    - name: add repository
+    - name: add docker ce repository
       command: yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
-    - name: refresh cache 
+    - name: refresh yum cache 
       command: yum makecache fast
-    - name: install gcc
-      yum: name=gcc state=present
-    - name: install pip
-      yum: name=python-pip state=present
-    - name: install python dev
-      yum: name=python-devel state=present
+    
     - name: install docker-ce
       yum: name=docker-ce state=present update_cache=yes
     - name: start docker service
@@ -29,6 +25,12 @@
     #    dest: /usr/local/bin/docker-compose
     #    mode: u+rwx
      #   owner: centos
+    - name: install gcc for pip modules
+      yum: name=gcc state=present
+    - name: install pip
+      yum: name=python-pip state=present
+    - name: install python dev and libssl
+      yum: name=python-devel,openssl-devel state=present
     - name: update pip
       command: pip install --upgrade pip
     - name: install pip modules
