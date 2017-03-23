@@ -24,12 +24,13 @@
       copy: src="/home/{{ansible_ssh_user}}/go/"  dest=/usr/local/  remote_src=True
       become: yes  
     - name: Symlink Go into /usr/local/bin
+      become: yes
       file: src="/usr/local/go/bin/{{ item }}" dest="/usr/local/bin/{{ item }}" state=link 
       with_items:
         - go
         - godoc
         - gofmt
-      become=yes
+
     #- name: install git 
     #  yum: name=git state=present
     - name: make directory
