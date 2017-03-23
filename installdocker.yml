@@ -5,12 +5,17 @@
   tasks:
     - name: install yum-utils
       yum: name=yum-utils state=present
-    - name: install pip
-      yum: name=python-pip state=present
+    - name: Add repository
+      yum_repository:
+        name: epel
+        description: EPEL YUM repo
+        baseurl: https://download.fedoraproject.org/pub/epel/$releasever/$basearch/
     - name: add repository
       command: yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
     - name: refresh cache 
       command: yum makecache fast
+    - name: install pip
+      yum: name=python-pip state=present
     - name: install docker-ce
       yum: name=docker-ce state=present update_cache=yes
     - name: start docker service
