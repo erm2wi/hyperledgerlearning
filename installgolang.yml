@@ -28,8 +28,3 @@
         - gofmt
     - name: install git 
       yum: name=git state=present
-    - name: Install Godep
-      command: go get github.com/tools/godep
-        creates="{{ golang_path }}/bin/godep"
-      environment:
-        GOPATH: "{{ golang_path }}"
