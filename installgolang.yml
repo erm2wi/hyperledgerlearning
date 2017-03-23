@@ -19,15 +19,15 @@
         src: "/usr/local/src/go{{ golang_version }}.{{ golang_os }}-{{ golang_arch }}.tar.gz"
         dest: /usr/local/
         copy: no
-
+        become: yes
     - name: Symlink Go into /usr/local/bin
-      file: src="/usr/local/go/bin/{{ item }}" dest="/usr/local/bin/{{ item }}" state=link
+      file: src="/usr/local/go/bin/{{ item }}" dest="/usr/local/bin/{{ item }}" state=link become=yes
       with_items:
         - go
         - godoc
         - gofmt
-    - name: install git 
-      yum: name=git state=present
+    #- name: install git 
+    #  yum: name=git state=present
     - name: make directory
       file: path="{{golang_path}}/src/github.com/hyperledger" state=directory
     - name: download the test script
