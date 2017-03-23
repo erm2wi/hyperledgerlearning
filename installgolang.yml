@@ -1,7 +1,7 @@
 ---
 - name: Install golang
   hosts: all
-  become: yes
+ # become: yes
   vars:
     golang_version: 1.7
     golang_os: linux
