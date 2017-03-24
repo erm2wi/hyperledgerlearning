@@ -45,3 +45,15 @@
     # Not clone the source code at this time
     #- name: git clone the resository
     #  command: git clone ssh://halminhu@gerrit.hyperledger.org:29418/fabric && scp -p -P 29418 halminhu@gerrit.hyperledger.org:hooks/commit-msg fabric/.git/hooks/
+    - name: install gcc-c++ for node.js
+      yum: name=gcc-c++ sate=present
+      become: yes
+    - name: install make for node.js
+      yum: name=make sate=present
+      become: yes
+    - name: install nvm
+      command: curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash
+    - name: load nvm
+      command: export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+    - name: install node.js
+      command: nvm install v6.9.5
