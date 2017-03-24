@@ -31,15 +31,15 @@
     #- name: install git 
     #  yum: name=git state=present
     - name: make directory
-      file: path="{{golang_path}}/src/github.com/hyperledger" state=directory
+      file: path="/home/{{ansible_ssh_user}}/test" state=directory
     - name: download the test script
       get_url:
         url: "https://raw.githubusercontent.com/hyperledger/fabric/master/examples/sfhackfest/sfhackfest.tar.gz"
-        dest: "/home/{{ansible_ssh_user}}/sfhackfest.tar.gz"
+        dest: "/home/{{ansible_ssh_user}}/test/sfhackfest.tar.gz"
     - name: Extract the tar
       unarchive: 
-        src: "/home/{{ansible_ssh_user}}/sfhackfest.tar.gz"
-        dest: /home/{{ansible_ssh_user}}/
+        src: "/home/{{ansible_ssh_user}}/test/sfhackfest.tar.gz"
+        dest: "/home/{{ansible_ssh_user}}/test"
         copy: no
     # Not clone the source code at this time
     #- name: git clone the resository
