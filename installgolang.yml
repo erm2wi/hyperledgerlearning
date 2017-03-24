@@ -24,7 +24,7 @@
     - name: Symlink Go into /usr/local/bin
       become: yes
       file: src="/usr/local/go/bin/{{ item }}" dest="/usr/local/bin/{{ item }}" state=link 
-       with_items:
+      with_items:
        - go 
        - godoc
        - gofmt
