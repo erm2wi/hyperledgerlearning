@@ -1,5 +1,7 @@
 hello# hyperledgerlearning
 Run following command
-
-$ansible-playbook -i hosts -u centos installdocker.yml
+##centos:
+ansible-playbook -i hosts -u centos preparedocker_centos.yml
+##ubuntu
+ansible-playbook -i hosts -u ubuntu preparedocker_ubuntu.yml
 
