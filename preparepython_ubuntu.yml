@@ -1,0 +1,9 @@
+---
+- name: Install python library
+  hosts: all
+  become: yes
+  tasks:
+    - name: install pip
+      apt: name=python-pip
+    - name: install pip packages
+      pip: name="behave nose docker-compose"
