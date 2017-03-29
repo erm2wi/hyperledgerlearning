@@ -1,0 +1,273 @@
+Channel name : mychannel
+[36m2017-03-29 07:56:43.596 UTC [logging] InitFromViper -> DEBU 001[0m Setting default logging level to DEBUG for command 'channel'
+[36m2017-03-29 07:56:43.596 UTC [msp] GetLocalMSP -> DEBU 002[0m Returning existing local MSP
+[36m2017-03-29 07:56:43.596 UTC [msp] GetDefaultSigningIdentity -> DEBU 003[0m Obtaining default signing identity
+[36m2017-03-29 07:56:45.634 UTC [msp] GetLocalMSP -> DEBU 004[0m Returning existing local MSP
+[36m2017-03-29 07:56:45.634 UTC [msp] GetDefaultSigningIdentity -> DEBU 005[0m Obtaining default signing identity
+[36m2017-03-29 07:56:45.635 UTC [msp] GetLocalMSP -> DEBU 006[0m Returning existing local MSP
+[36m2017-03-29 07:56:45.635 UTC [msp] GetDefaultSigningIdentity -> DEBU 007[0m Obtaining default signing identity
+[36m2017-03-29 07:56:45.635 UTC [msp] Sign -> DEBU 008[0m Sign: plaintext: 0AD6040A1508021A0608BDD1EDC60522...00120D1A0B08FFFFFFFFFFFFFFFFFF01 
+[36m2017-03-29 07:56:45.635 UTC [msp] Sign -> DEBU 009[0m Sign: digest: 315F05A03E68DD94444E0183EA1B7D5475D010FAD51D707F37DA1BA91014DE8D 
+2017/03/29 07:56:45 proto: textWriter unindented too far
+Received block:  header:<6:39 0:"\x00" } 0:4 4:123 6:/* unexpected EOF */ 1835:/* unknown wire type 7 */ 12:2216 91583:/* unknown wire type 7 */ 1958:/* unknown wire type 6 */ 10:/* unknown wire type 6 */ 816:9836 232940:/* unknown wire type 7 */ 5974198452616:8 /* unexpected EOF */ >data:<1:"\n\xd6\x04\n\x15\b\x01\x1a\x06\b\xbb\xd1\xed\xc6\x05\"\tmychannel\x12\xbc\x04\n\x9f\x04\n\nOrdererMSP\x12\x90\x04-----BEGIN -----\nMIIBajCCAQ+gAwIBAwICA+gwCgYIKoZIzj0EAwIwFjEUMBIGA1UEAwwLb3JkZXJl\nck9yZzAwHhcNMTcwMjIwMTkwNjEwWhcNMTgwMjIwMTkwNjEwWjATMREwDwYDVQQD\nDAhvcmRlcmVyMDBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABH1h6WeFWnBDgPN5\nbiXbyzqShGrAZ9ztOu4j03xcrqUIenBQASJ/rmAErmq4kilNyRVnwdZwDcGTrAwP\nQfAXkVCjUDBOMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFK01/Qm7YoTpXLXjq18D\n+X2pExanMB8GA1UdIwQYMBaAFCVakuvqxEcK8pYMf/Hw8hsexRMTMAoGCCqGSM49\nBAMCA0kAMEYCIQDXdRYqrZdTAM6F2JBl/eN3nIHoBa7N3gIQDqdUAris8wIhAP6i\nf0CgyBN4nWmw2mT+XtxaB0xxWrhYj/j4agiuQzrd\n-----END -----\n\x12\x18\xcfZT,kO\x93\x05?\xbb\x96\x8d\x00\fRƗ\x8cd\xf0\x01\xfe\xf3.\x12\xa9\x92\x01\n\xacH\x12\xa9H\x12\xf68\n\vApplication\x12\xe68\x12\xfa\x1b\n\aOrg0MSP\x12\xee\x1b\x1a\xad\x1a\n\x03MSP\x12\xa5\x1a\x12\x9a\x1a\x12\x97\x1a\n\aOrg0MSP\x12\xaa\x04-----BEGIN CERTIFICATE-----\nMIIBbDCCARKgAwIBAwICA+gwCgYIKoZIzj0EAwIwEzERMA8GA1UEAwwIcGVlck9y\nZzAwHhcNMTcwMjIwMTkwNjEwWhcNMTgwMjIwMTkwNjEwWjATMREwDwYDVQQDDAhw\nZWVyT3JnMDBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABKJfDc/CcaiHRipTG2AB\nK5fA0LO9SOlbtC9bZcjLo/xsL157p+3QB3UVF3gt7nkwgMs/ul3FhSEFTk2EVNlF\n1QCjVjBUMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFFQzuQR1RZP/Qn/B\nNDtGSa8n4eN/MB8GA1UdIwQYMBaAFFQzuQR1RZP/Qn/BNDtGSa8n4eN/MAoGCCqG\nSM49BAMCA0gAMEUCIAuG+/Fy3x9JXAD1/rFsu3ZpCKbXiXZLGF7P6Gma8is5AiEA\npSQpRcdukxe4zvcfRmNBjMbNLWCoWlHSQA2jD678QGE=\n-----END CERTIFICATE-----\n\x12\xaa\x04-----BEGIN CERTIFICATE-----\nMIIBbDCCARKgAwIBAwICA+gwCgYIKoZIzj0EAwIwEzERMA8GA1UEAwwIcGVlck9y\nZzEwHhcNMTcwMjIwMTkwNjEwWhcNMTgwMjIwMTkwNjEwWjATMREwDwYDVQQDDAhw\nZWVyT3JnMTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJ2S+UvyFgFZYL6qcrKo\nzy72Nkc/RQVzg1VfwC3X7QcnHEVBuCzba1nxdDVE8XPnhmKBWLKh0adn6GKUZpyf\nmbKjVjBUMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFAQlMVsXlKGMEWPf\nKMMM6QVASnlPMB8GA1UdIwQYMBaAFAQlMVsXlKGMEWPfKMMM6QVASnlPMAoGCCqG\nSM49BAMCA0gAMEUCIHr4AD6Xx3R6zFCsveIMnWao9Us88/0uGHoT4ELmMhA1AiEA\nyzfXU5qHp3xBJ1BrKOGi71UmQZVwWfO26INhxcfpCAg=\n-----END CERTIFICATE-----\n\x12\xaa\x04-----BEGIN CERTIFICATE-----\nMIIBbDCCARKgAwIBAwICA+gwCgYIKoZIzj0EAwIwEzERMA8GA1UEAwwIcGVlck9y\nZzIwHhcNMTcwMjIwMTkwNjExWhcNMTgwMjIwMTkwNjExWjATMREwDwYDVQQDDAhw\nZWVyT3JnMjBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABH3IweQK1AJdcV3FF27a\ngNKhy13Nz2OguzsmUbW85/7pReenAWzs89rEApHXoJqUtNzdZfaLkcq32E1Ilk3N\noN2jVjBUMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFEhOilIyGA53r9Zo\nO5GQP0RSZcQ1MB8GA1UdIwQYMBaAFEhOilIyGA53r9ZoO5GQP0RSZcQ1MAoGCCqG\nSM49BAMCA0gAMEUCIQD+/5z68ewJarixMgYrg/MwyTMwX7ikCaCgU5TN2MU1PQIg\nQe+klrq6COxsmrctClV64Wj4zhGTOhaZG1yN24OXukQ=\n-----END CERTIFICATE-----\n\"\xaa\x04-----BEGIN CERTIFICATE-----\nMIIBbDCCARKgAwIBAwICA+gwCgYIKoZIzj0EAwIwEzERMA8GA1UEAwwIcGVlck9y\nZzAwHhcNMTcwMjIwMTkwNjEwWhcNMTgwMjIwMTkwNjEwWjATMREwDwYDVQQDDAhw\nZWVyT3JnMDBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABKJfDc/CcaiHRipTG2AB\nK5fA0LO9SOlbtC9bZcjLo/xsL157p+3QB3UVF3gt7nkwgMs/ul3FhSEFTk2EVNlF\n1QCjVjBUMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFFQzuQR1RZP/Qn/B\nNDtGSa8n4eN/MB8GA1UdIwQYMBaAFFQzuQR1RZP/Qn/BNDtGSa8n4eN/MAoGCCqG\nSM49BAMCA0gAMEUCIAuG+/Fy3x9JXAD1/rFsu3ZpCKbXiXZLGF7P6Gma8is5AiEA\npSQpRcdukxe4zvcfRmNBjMbNLWCoWlHSQA2jD678QGE=\n-----END CERTIFICATE-----\n\"\xaa\x04-----BEGIN CERTIFICATE-----\nMIIBbDCCARKgAwIBAwICA+gwCgYIKoZIzj0EAwIwEzERMA8GA1UEAwwIcGVlck9y\nZzEwHhcNMTcwMjIwMTkwNjEwWhcNMTgwMjIwMTkwNjEwWjATMREwDwYDVQQDDAhw\nZWVyT3JnMTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJ2S+UvyFgFZYL6qcrKo\nzy72Nkc/RQVzg1VfwC3X7QcnHEVBuCzba1nxdDVE8XPnhmKBWLKh0adn6GKUZpyf\nmbKjVjBUMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFAQlMVsXlKGMEWPf\nKMMM6QVASnlPMB8GA1UdIwQYMBaAFAQlMVsXlKGMEWPfKMMM6QVASnlPMAoGCCqG\nSM49BAMCA0gAMEUCIHr4AD6Xx3R6zFCsveIMnWao9Us88/0uGHoT4ELmMhA1AiEA\nyzfXU5qHp3xBJ1BrKOGi71UmQZVwWfO26INhxcfpCAg=\n-----END CERTIFICATE-----\n\"\xaa\x04-----BEGIN CERTIFICATE-----\nMIIBbDCCARKgAwIBAwICA+gwCgYIKoZIzj0EAwIwEzERMA8GA1UEAwwIcGVlck9y\nZzIwHhcNMTcwMjIwMTkwNjExWhcNMTgwMjIwMTkwNjExWjATMREwDwYDVQQDDAhw\nZWVyT3JnMjBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABH3IweQK1AJdcV3FF27a\ngNKhy13Nz2OguzsmUbW85/7pReenAWzs89rEApHXoJqUtNzdZfaLkcq32E1Ilk3N\noN2jVjBUMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFEhOilIyGA53r9Zo\nO5GQP0RSZcQ1MB8GA1UdIwQYMBaAFEhOilIyGA53r9ZoO5GQP0RSZcQ1MAoGCCqG\nSM49BAMCA0gAMEUCIQD+/5z68ewJarixMgYrg/MwyTMwX7ikCaCgU5TN2MU1PQIg\nQe+klrq6COxsmrctClV64Wj4zhGTOhaZG1yN24OXukQ=\n-----END CERTIFICATE-----\n\x1a\x06Admins\x1a%\n\vAnchorPeers\x12\x16\x12\f\n\n\n\x05peer0\x10\x8b7\x1a\x06Admins\"1\n\x06Admins\x12'\x12\x1d\b\x01\x12\x19\x12\b\x12\x06\b\x01\x12\x02\b\x00\x1a\r\x12\v\n\aOrg0MSP\x10\x01\x1a\x06Admins\"0\n\aReaders\x12%\x12\x1b\b\x01\x12\x17\x12\b\x12\x06\b\x01\x12\x02\b\x00\x1a\v\x12\t\n\aOrg0MSP\x1a\x06Admins\"0\n\aWriters\x12%\x12\x1b\b\x01\x12\x17\x12\b\x12\x06\b\x01\x12\x02\b\x00\x1a\v\x12\t\n\aOrg0MSP\x1a\x06Admins\x12\xfa\x1b\n\aOrg1MSP\x12\xee\x1b\x1a%\n\vAnchorPeers\x12\x16\x12\f\n\n\n\x05peer2\x10\x8b7\x1a\x06Admins\x1a\xad\x1a\n\x03MSP\x12\xa5\x1a\x12\x9a\x1a\x12\x97\x1a\n\aOrg1MSP\x12\xaa\x04-----BEGIN CERTIFICATE-----\nMIIBbDCCARKgAwIBAwICA+gwCgYIKoZIzj0EAwIwEzERMA8GA1UEAwwIcGVlck9y\nZzAwHhcNMTcwMjIwMTkwNjEwWhcNMTgwMjIwMTkwNjEwWjATMREwDwYDVQQDDAhw\nZWVyT3JnMDBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABKJfDc/CcaiHRipTG2AB\nK5fA0LO9SOlbtC9bZcjLo/xsL157p+3QB3UVF3gt7nkwgMs/ul3FhSEFTk2EVNlF\n1QCjVjBUMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFFQzuQR1RZP/Qn/B\nNDtGSa8n4eN/MB8GA1UdIwQYMBaAFFQzuQR1RZP/Qn/BNDtGSa8n4eN/MAoGCCqG\nSM49BAMCA0gAMEUCIAuG+/Fy3x9JXAD1/rFsu3ZpCKbXiXZLGF7P6Gma8is5AiEA\npSQpRcdukxe4zvcfRmNBjMbNLWCoWlHSQA2jD678QGE=\n-----END CERTIFICATE-----\n\x12\xaa\x04-----BEGIN CERTIFICATE-----\nMIIBbDCCARKgAwIBAwICA+gwCgYIKoZIzj0EAwIwEzERMA8GA1UEAwwIcGVlck9y\nZzEwHhcNMTcwMjIwMTkwNjEwWhcNMTgwMjIwMTkwNjEwWjATMREwDwYDVQQDDAhw\nZWVyT3JnMTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJ2S+UvyFgFZYL6qcrKo\nzy72Nkc/RQVzg1VfwC3X7QcnHEVBuCzba1nxdDVE8XPnhmKBWLKh0adn6GKUZpyf\nmbKjVjBUMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFAQlMVsXlKGMEWPf\nKMMM6QVASnlPMB8GA1UdIwQYMBaAFAQlMVsXlKGMEWPfKMMM6QVASnlPMAoGCCqG\nSM49BAMCA0gAMEUCIHr4AD6Xx3R6zFCsveIMnWao9Us88/0uGHoT4ELmMhA1AiEA\nyzfXU5qHp3xBJ1BrKOGi71UmQZVwWfO26INhxcfpCAg=\n-----END CERTIFICATE-----\n\x12\xaa\x04-----BEGIN CERTIFICATE-----\nMIIBbDCCARKgAwIBAwICA+gwCgYIKoZIzj0EAwIwEzERMA8GA1UEAwwIcGVlck9y\nZzIwHhcNMTcwMjIwMTkwNjExWhcNMTgwMjIwMTkwNjExWjATMREwDwYDVQQDDAhw\nZWVyT3JnMjBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABH3IweQK1AJdcV3FF27a\ngNKhy13Nz2OguzsmUbW85/7pReenAWzs89rEApHXoJqUtNzdZfaLkcq32E1Ilk3N\noN2jVjBUMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFEhOilIyGA53r9Zo\nO5GQP0RSZcQ1MB8GA1UdIwQYMBaAFEhOilIyGA53r9ZoO5GQP0RSZcQ1MAoGCCqG\nSM49BAMCA0gAMEUCIQD+/5z68ewJarixMgYrg/MwyTMwX7ikCaCgU5TN2MU1PQIg\nQe+klrq6COxsmrctClV64Wj4zhGTOhaZG1yN24OXukQ=\n-----END CERTIFICATE-----\n\"\xaa\x04-----BEGIN CERTIFICATE-----\nMIIBbDCCARKgAwIBAwICA+gwCgYIKoZIzj0EAwIwEzERMA8GA1UEAwwIcGVlck9y\nZzAwHhcNMTcwMjIwMTkwNjEwWhcNMTgwMjIwMTkwNjEwWjATMREwDwYDVQQDDAhw\nZWVyT3JnMDBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABKJfDc/CcaiHRipTG2AB\nK5fA0LO9SOlbtC9bZcjLo/xsL157p+3QB3UVF3gt7nkwgMs/ul3FhSEFTk2EVNlF\n1QCjVjBUMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFFQzuQR1RZP/Qn/B\nNDtGSa8n4eN/MB8GA1UdIwQYMBaAFFQzuQR1RZP/Qn/BNDtGSa8n4eN/MAoGCCqG\nSM49BAMCA0gAMEUCIAuG+/Fy3x9JXAD1/rFsu3ZpCKbXiXZLGF7P6Gma8is5AiEA\npSQpRcdukxe4zvcfRmNBjMbNLWCoWlHSQA2jD678QGE=\n-----END CERTIFICATE-----\n\"\xaa\x04-----BEGIN CERTIFICATE-----\nMIIBbDCCARKgAwIBAwICA+gwCgYIKoZIzj0EAwIwEzERMA8GA1UEAwwIcGVlck9y\nZzEwHhcNMTcwMjIwMTkwNjEwWhcNMTgwMjIwMTkwNjEwWjATMREwDwYDVQQDDAhw\nZWVyT3JnMTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJ2S+UvyFgFZYL6qcrKo\nzy72Nkc/RQVzg1VfwC3X7QcnHEVBuCzba1nxdDVE8XPnhmKBWLKh0adn6GKUZpyf\nmbKjVjBUMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFAQlMVsXlKGMEWPf\nKMMM6QVASnlPMB8GA1UdIwQYMBaAFAQlMVsXlKGMEWPfKMMM6QVASnlPMAoGCCqG\nSM49BAMCA0gAMEUCIHr4AD6Xx3R6zFCsveIMnWao9Us88/0uGHoT4ELmMhA1AiEA\nyzfXU5qHp3xBJ1BrKOGi71UmQZVwWfO26INhxcfpCAg=\n-----END CERTIFICATE-----\n\"\xaa\x04-----BEGIN CERTIFICATE-----\nMIIBbDCCARKgAwIBAwICA+gwCgYIKoZIzj0EAwIwEzERMA8GA1UEAwwIcGVlck9y\nZzIwHhcNMTcwMjIwMTkwNjExWhcNMTgwMjIwMTkwNjExWjATMREwDwYDVQQDDAhw\nZWVyT3JnMjBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABH3IweQK1AJdcV3FF27a\ngNKhy13Nz2OguzsmUbW85/7pReenAWzs89rEApHXoJqUtNzdZfaLkcq32E1Ilk3N\noN2jVjBUMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFEhOilIyGA53r9Zo\nO5GQP0RSZcQ1MB8GA1UdIwQYMBaAFEhOilIyGA53r9ZoO5GQP0RSZcQ1MAoGCCqG\nSM49BAMCA0gAMEUCIQD+/5z68ewJarixMgYrg/MwyTMwX7ikCaCgU5TN2MU1PQIg\nQe+klrq6COxsmrctClV64Wj4zhGTOhaZG1yN24OXukQ=\n-----END CERTIFICATE-----\n\x1a\x06Admins\"0\n\aWriters\x12%\x12\x1b\b\x01\x12\x17\x12\b\x12\x06\b\x01\x12\x02\b\x00\x1a\v\x12\t\n\aOrg1MSP\x1a\x06Admins\"1\n\x06Admins\x12'\x12\x1d\b\x01\x12\x19\x12\b\x12\x06\b\x01\x12\x02\b\x00\x1a\r\x12\v\n\aOrg1MSP\x10\x01\x1a\x06Admins\"0\n\aReaders\x12%\x12\x1b\b\x01\x12\x17\x12\b\x12\x06\b\x01\x12\x02\b\x00\x1a\v\x12\t\n\aOrg1MSP\x1a\x06Admins\"\"\n\aReaders\x12\x17\x12\r\b\x03\x12\t\n\aReaders\x1a\x06Admins\"\"\n\aWriters\x12\x17\x12\r\b\x03\x12\t\n\aWriters\x1a\x06Admins\"\"\n\x06Admins\x12\x18\x12\x0e\b\x03\x12\n\n\x06Admins\x10\x02\x1a\x06Admins\x12\x94\r\n\aOrderer\x12\x88\r\x12\xbe\n\n\nOrdererOrg\x12\xaf\n\x1a\x8c\t\n\x03MSP\x12\x84\t\x12\xf9\b\x12\xf6\b\n\nOrdererMSP\x12\xb2\x04-----BEGIN CERTIFICATE-----\nMIIBcjCCARigAwIBAwICA+gwCgYIKoZIzj0EAwIwFjEUMBIGA1UEAwwLb3JkZXJl\nck9yZzAwHhcNMTcwMjIwMTkwNjEwWhcNMTgwMjIwMTkwNjEwWjAWMRQwEgYDVQQD\nDAtvcmRlcmVyT3JnMDBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABK8Sv0EA9h06\nfmBkUCO+D/b/2INZ2huy+W/HCxSF22c7WGoJbRzQcWtQmW1KqZowUk86RcxVfFqv\njEMFVXzV38SjVjBUMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFCVakuvq\nxEcK8pYMf/Hw8hsexRMTMB8GA1UdIwQYMBaAFCVakuvqxEcK8pYMf/Hw8hsexRMT\nMAoGCCqGSM49BAMCA0gAMEUCIQCmXgDSRTyxpSk+PXg0FNlYZ4ijTVwKgLkYVhod\nzZPfngIgO4y0p3Fs/gNsJYrroKaaVDe955KrPp/O55jYDKAD/oY=\n-----END CERTIFICATE-----\n\"\xb2\x04-----BEGIN CERTIFICATE-----\nMIIBcjCCARigAwIBAwICA+gwCgYIKoZIzj0EAwIwFjEUMBIGA1UEAwwLb3JkZXJl\nck9yZzAwHhcNMTcwMjIwMTkwNjEwWhcNMTgwMjIwMTkwNjEwWjAWMRQwEgYDVQQD\nDAtvcmRlcmVyT3JnMDBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABK8Sv0EA9h06\nfmBkUCO+D/b/2INZ2huy+W/HCxSF22c7WGoJbRzQcWtQmW1KqZowUk86RcxVfFqv\njEMFVXzV38SjVjBUMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFCVakuvq\nxEcK8pYMf/Hw8hsexRMTMB8GA1UdIwQYMBaAFCVakuvqxEcK8pYMf/Hw8hsexRMT\nMAoGCCqGSM49BAMCA0gAMEUCIQCmXgDSRTyxpSk+PXg0FNlYZ4ijTVwKgLkYVhod\nzZPfngIgO4y0p3Fs/gNsJYrroKaaVDe955KrPp/O55jYDKAD/oY=\n-----END CERTIFICATE-----\n\x1a\x06Admins\"4\n\x06Admins\x12*\x12 \b\x01\x12\x1c\x12\b\x12\x06\b\x01\x12\x02\b\x00\x1a\x10\x12\x0e\n\nOrdererMSP\x10\x01\x1a\x06Admins\"3\n\aReaders\x12(\x12\x1e\b\x01\x12\x1a\x12\b\x12\x06\b\x01\x12\x02\b\x00\x1a\x0e\x12\f\n\nOrdererMSP\x1a\x06Admins\"3\n\aWriters\x12(\x12\x1e\b\x01\x12\x1a\x12\b\x12\x06\b\x01\x12\x02\b\x00\x1a\x0e\x12\f\n\nOrdererMSP\x1a\x06Admins\x1a\"\n\tBatchSize\x12\x15\x12\v\b\n\x10\x80\x80\xc01\x18\x80\x80 \x1a\x06Admins\x1a\x1e\n\fBatchTimeout\x12\x0e\x12\x04\n\x022s\x1a\x06Admins\x1a\x1f\n\x13ChannelRestrictions\x12\b\x1a\x06Admins\x1a!\n\rConsensusType\x12\x10\x12\x06\n\x04solo\x1a\x06Admins\x1a%\n\x0eCreationPolicy\x12\x13\x12\x11\n\x0fAcceptAllPolicy\"\"\n\x06Admins\x12\x18\x12\x0e\b\x03\x12\n\n\x06Admins\x10\x02\x1a\x06Admins\"*\n\x0fBlockValidation\x12\x17\x12\r\b\x03\x12\t\n\aWriters\x1a\x06Admins\"\"\n\aReaders\x12\x17\x12\r\b\x03\x12\t\n\aReaders\x1a\x06Admins\"\"\n\aWriters\x12\x17\x12\r\b\x03\x12\t\n\aWriters\x1a\x06Admins\x1a-\n\x19BlockDataHashingStructure\x12\x10\x12\x06\b\xff\xff\xff\xff\x0f\x1a\x06Admins\x1a-\n\x10OrdererAddresses\x12\x19\x12\x0f\n\rorderer0:7050\x1a\x06Admins\x1a&\n\x10HashingAlgorithm\x12\x12\x12\b\n\x06SHA256\x1a\x06Admins\"%\n\x0fAcceptAllPolicy\x12\x12\x12\b\b\x01\x12\x04\x12\x02\x12\x00\x1a\x06Admins\"\"\n\aReaders\x12\x17\x12\r\b\x03\x12\t\n\aReaders\x1a\x06Admins\"\"\n\aWriters\x12\x17\x12\r\b\x03\x12\t\n\aWriters\x1a\x06Admins\"\"\n\x06Admins\x12\x18\x12\x0e\b\x03\x12\n\n\x06Admins\x10\x02\x1a\x06Admins\x12\xf7I\n\xe9I\n{\nW\b\x02\x1a\x06\b\xca\xcc\xed\xc6\x05\"\tmychannel*@c12cf8396f24df618b3c862c94630d62a221c29b0bf827cb65946cc8edbe9ca6\x12 \n\x04cert\x12\x18v\xc2\xec\xdc\x00\xa8\xcc<\xa0=\xd9y\xb7mI\xb8\xa9\xbd\xb9Jf]zP\x12\xe9H\n\xb7H\n\tmychannel\x1a\xa9H\x12\xf68\n\vApplication\x12\xe68\x12\xfa\x1b\n\aOrg0MSP\x12\xee\x1b\x1a\xad\x1a\n\x03MSP\x12\xa5\x1a\x12\x9a\x1a\x12\x97\x1a\n\aOrg0MSP\x12\xaa\x04-----BEGIN CERTIFICATE-----\nMIIBbDCCARKgAwIBAwICA+gwCgYIKoZIzj0EAwIwEzERMA8GA1UEAwwIcGVlck9y\nZzAwHhcNMTcwMjIwMTkwNjEwWhcNMTgwMjIwMTkwNjEwWjATMREwDwYDVQQDDAhw\nZWVyT3JnMDBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABKJfDc/CcaiHRipTG2AB\nK5fA0LO9SOlbtC9bZcjLo/xsL157p+3QB3UVF3gt7nkwgMs/ul3FhSEFTk2EVNlF\n1QCjVjBUMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFFQzuQR1RZP/Qn/B\nNDtGSa8n4eN/MB8GA1UdIwQYMBaAFFQzuQR1RZP/Qn/BNDtGSa8n4eN/MAoGCCqG\nSM49BAMCA0gAMEUCIAuG+/Fy3x9JXAD1/rFsu3ZpCKbXiXZLGF7P6Gma8is5AiEA\npSQpRcdukxe4zvcfRmNBjMbNLWCoWlHSQA2jD678QGE=\n-----END CERTIFICATE-----\n\x12\xaa\x04-----BEGIN CERTIFICATE-----\nMIIBbDCCARKgAwIBAwICA+gwCgYIKoZIzj0EAwIwEzERMA8GA1UEAwwIcGVlck9y\nZzEwHhcNMTcwMjIwMTkwNjEwWhcNMTgwMjIwMTkwNjEwWjATMREwDwYDVQQDDAhw\nZWVyT3JnMTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJ2S+UvyFgFZYL6qcrKo\nzy72Nkc/RQVzg1VfwC3X7QcnHEVBuCzba1nxdDVE8XPnhmKBWLKh0adn6GKUZpyf\nmbKjVjBUMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFAQlMVsXlKGMEWPf\nKMMM6QVASnlPMB8GA1UdIwQYMBaAFAQlMVsXlKGMEWPfKMMM6QVASnlPMAoGCCqG\nSM49BAMCA0gAMEUCIHr4AD6Xx3R6zFCsveIMnWao9Us88/0uGHoT4ELmMhA1AiEA\nyzfXU5qHp3xBJ1BrKOGi71UmQZVwWfO26INhxcfpCAg=\n-----END CERTIFICATE-----\n\x12\xaa\x04-----BEGIN CERTIFICATE-----\nMIIBbDCCARKgAwIBAwICA+gwCgYIKoZIzj0EAwIwEzERMA8GA1UEAwwIcGVlck9y\nZzIwHhcNMTcwMjIwMTkwNjExWhcNMTgwMjIwMTkwNjExWjATMREwDwYDVQQDDAhw\nZWVyT3JnMjBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABH3IweQK1AJdcV3FF27a\ngNKhy13Nz2OguzsmUbW85/7pReenAWzs89rEApHXoJqUtNzdZfaLkcq32E1Ilk3N\noN2jVjBUMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFEhOilIyGA53r9Zo\nO5GQP0RSZcQ1MB8GA1UdIwQYMBaAFEhOilIyGA53r9ZoO5GQP0RSZcQ1MAoGCCqG\nSM49BAMCA0gAMEUCIQD+/5z68ewJarixMgYrg/MwyTMwX7ikCaCgU5TN2MU1PQIg\nQe+klrq6COxsmrctClV64Wj4zhGTOhaZG1yN24OXukQ=\n-----END CERTIFICATE-----\n\"\xaa\x04-----BEGIN CERTIFICATE-----\nMIIBbDCCARKgAwIBAwICA+gwCgYIKoZIzj0EAwIwEzERMA8GA1UEAwwIcGVlck9y\nZzAwHhcNMTcwMjIwMTkwNjEwWhcNMTgwMjIwMTkwNjEwWjATMREwDwYDVQQDDAhw\nZWVyT3JnMDBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABKJfDc/CcaiHRipTG2AB\nK5fA0LO9SOlbtC9bZcjLo/xsL157p+3QB3UVF3gt7nkwgMs/ul3FhSEFTk2EVNlF\n1QCjVjBUMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFFQzuQR1RZP/Qn/B\nNDtGSa8n4eN/MB8GA1UdIwQYMBaAFFQzuQR1RZP/Qn/BNDtGSa8n4eN/MAoGCCqG\nSM49BAMCA0gAMEUCIAuG+/Fy3x9JXAD1/rFsu3ZpCKbXiXZLGF7P6Gma8is5AiEA\npSQpRcdukxe4zvcfRmNBjMbNLWCoWlHSQA2jD678QGE=\n-----END CERTIFICATE-----\n\"\xaa\x04-----BEGIN CERTIFICATE-----\nMIIBbDCCARKgAwIBAwICA+gwCgYIKoZIzj0EAwIwEzERMA8GA1UEAwwIcGVlck9y\nZzEwHhcNMTcwMjIwMTkwNjEwWhcNMTgwMjIwMTkwNjEwWjATMREwDwYDVQQDDAhw\nZWVyT3JnMTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJ2S+UvyFgFZYL6qcrKo\nzy72Nkc/RQVzg1VfwC3X7QcnHEVBuCzba1nxdDVE8XPnhmKBWLKh0adn6GKUZpyf\nmbKjVjBUMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFAQlMVsXlKGMEWPf\nKMMM6QVASnlPMB8GA1UdIwQYMBaAFAQlMVsXlKGMEWPfKMMM6QVASnlPMAoGCCqG\nSM49BAMCA0gAMEUCIHr4AD6Xx3R6zFCsveIMnWao9Us88/0uGHoT4ELmMhA1AiEA\nyzfXU5qHp3xBJ1BrKOGi71UmQZVwWfO26INhxcfpCAg=\n-----END CERTIFICATE-----\n\"\xaa\x04-----BEGIN CERTIFICATE-----\nMIIBbDCCARKgAwIBAwICA+gwCgYIKoZIzj0EAwIwEzERMA8GA1UEAwwIcGVlck9y\nZzIwHhcNMTcwMjIwMTkwNjExWhcNMTgwMjIwMTkwNjExWjATMREwDwYDVQQDDAhw\nZWVyT3JnMjBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABH3IweQK1AJdcV3FF27a\ngNKhy13Nz2OguzsmUbW85/7pReenAWzs89rEApHXoJqUtNzdZfaLkcq32E1Ilk3N\noN2jVjBUMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFEhOilIyGA53r9Zo\nO5GQP0RSZcQ1MB8GA1UdIwQYMBaAFEhOilIyGA53r9ZoO5GQP0RSZcQ1MAoGCCqG\nSM49BAMCA0gAMEUCIQD+/5z68ewJarixMgYrg/MwyTMwX7ikCaCgU5TN2MU1PQIg\nQe+klrq6COxsmrctClV64Wj4zhGTOhaZG1yN24OXukQ=\n-----END CERTIFICATE-----\n\x1a\x06Admins\x1a%\n\vAnchorPeers\x12\x16\x12\f\n\n\n\x05peer0\x10\x8b7\x1a\x06Admins\"1\n\x06Admins\x12'\x12\x1d\b\x01\x12\x19\x12\b\x12\x06\b\x01\x12\x02\b\x00\x1a\r\x12\v\n\aOrg0MSP\x10\x01\x1a\x06Admins\"0\n\aReaders\x12%\x12\x1b\b\x01\x12\x17\x12\b\x12\x06\b\x01\x12\x02\b\x00\x1a\v\x12\t\n\aOrg0MSP\x1a\x06Admins\"0\n\aWriters\x12%\x12\x1b\b\x01\x12\x17\x12\b\x12\x06\b\x01\x12\x02\b\x00\x1a\v\x12\t\n\aOrg0MSP\x1a\x06Admins\x12\xfa\x1b\n\aOrg1MSP\x12\xee\x1b\x1a\xad\x1a\n\x03MSP\x12\xa5\x1a\x12\x9a\x1a\x12\x97\x1a\n\aOrg1MSP\x12\xaa\x04-----BEGIN CERTIFICATE-----\nMIIBbDCCARKgAwIBAwICA+gwCgYIKoZIzj0EAwIwEzERMA8GA1UEAwwIcGVlck9y\nZzAwHhcNMTcwMjIwMTkwNjEwWhcNMTgwMjIwMTkwNjEwWjATMREwDwYDVQQDDAhw\nZWVyT3JnMDBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABKJfDc/CcaiHRipTG2AB\nK5fA0LO9SOlbtC9bZcjLo/xsL157p+3QB3UVF3gt7nkwgMs/ul3FhSEFTk2EVNlF\n1QCjVjBUMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFFQzuQR1RZP/Qn/B\nNDtGSa8n4eN/MB8GA1UdIwQYMBaAFFQzuQR1RZP/Qn/BNDtGSa8n4eN/MAoGCCqG\nSM49BAMCA0gAMEUCIAuG+/Fy3x9JXAD1/rFsu3ZpCKbXiXZLGF7P6Gma8is5AiEA\npSQpRcdukxe4zvcfRmNBjMbNLWCoWlHSQA2jD678QGE=\n-----END CERTIFICATE-----\n\x12\xaa\x04-----BEGIN CERTIFICATE-----\nMIIBbDCCARKgAwIBAwICA+gwCgYIKoZIzj0EAwIwEzERMA8GA1UEAwwIcGVlck9y\nZzEwHhcNMTcwMjIwMTkwNjEwWhcNMTgwMjIwMTkwNjEwWjATMREwDwYDVQQDDAhw\nZWVyT3JnMTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJ2S+UvyFgFZYL6qcrKo\nzy72Nkc/RQVzg1VfwC3X7QcnHEVBuCzba1nxdDVE8XPnhmKBWLKh0adn6GKUZpyf\nmbKjVjBUMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFAQlMVsXlKGMEWPf\nKMMM6QVASnlPMB8GA1UdIwQYMBaAFAQlMVsXlKGMEWPfKMMM6QVASnlPMAoGCCqG\nSM49BAMCA0gAMEUCIHr4AD6Xx3R6zFCsveIMnWao9Us88/0uGHoT4ELmMhA1AiEA\nyzfXU5qHp3xBJ1BrKOGi71UmQZVwWfO26INhxcfpCAg=\n-----END CERTIFICATE-----\n\x12\xaa\x04-----BEGIN CERTIFICATE-----\nMIIBbDCCARKgAwIBAwICA+gwCgYIKoZIzj0EAwIwEzERMA8GA1UEAwwIcGVlck9y\nZzIwHhcNMTcwMjIwMTkwNjExWhcNMTgwMjIwMTkwNjExWjATMREwDwYDVQQDDAhw\nZWVyT3JnMjBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABH3IweQK1AJdcV3FF27a\ngNKhy13Nz2OguzsmUbW85/7pReenAWzs89rEApHXoJqUtNzdZfaLkcq32E1Ilk3N\noN2jVjBUMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFEhOilIyGA53r9Zo\nO5GQP0RSZcQ1MB8GA1UdIwQYMBaAFEhOilIyGA53r9ZoO5GQP0RSZcQ1MAoGCCqG\nSM49BAMCA0gAMEUCIQD+/5z68ewJarixMgYrg/MwyTMwX7ikCaCgU5TN2MU1PQIg\nQe+klrq6COxsmrctClV64Wj4zhGTOhaZG1yN24OXukQ=\n-----END CERTIFICATE-----\n\"\xaa\x04-----BEGIN CERTIFICATE-----\nMIIBbDCCARKgAwIBAwICA+gwCgYIKoZIzj0EAwIwEzERMA8GA1UEAwwIcGVlck9y\nZzAwHhcNMTcwMjIwMTkwNjEwWhcNMTgwMjIwMTkwNjEwWjATMREwDwYDVQQDDAhw\nZWVyT3JnMDBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABKJfDc/CcaiHRipTG2AB\nK5fA0LO9SOlbtC9bZcjLo/xsL157p+3QB3UVF3gt7nkwgMs/ul3FhSEFTk2EVNlF\n1QCjVjBUMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFFQzuQR1RZP/Qn/B\nNDtGSa8n4eN/MB8GA1UdIwQYMBaAFFQzuQR1RZP/Qn/BNDtGSa8n4eN/MAoGCCqG\nSM49BAMCA0gAMEUCIAuG+/Fy3x9JXAD1/rFsu3ZpCKbXiXZLGF7P6Gma8is5AiEA\npSQpRcdukxe4zvcfRmNBjMbNLWCoWlHSQA2jD678QGE=\n-----END CERTIFICATE-----\n\"\xaa\x04-----BEGIN CERTIFICATE-----\nMIIBbDCCARKgAwIBAwICA+gwCgYIKoZIzj0EAwIwEzERMA8GA1UEAwwIcGVlck9y\nZzEwHhcNMTcwMjIwMTkwNjEwWhcNMTgwMjIwMTkwNjEwWjATMREwDwYDVQQDDAhw\nZWVyT3JnMTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJ2S+UvyFgFZYL6qcrKo\nzy72Nkc/RQVzg1VfwC3X7QcnHEVBuCzba1nxdDVE8XPnhmKBWLKh0adn6GKUZpyf\nmbKjVjBUMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFAQlMVsXlKGMEWPf\nKMMM6QVASnlPMB8GA1UdIwQYMBaAFAQlMVsXlKGMEWPfKMMM6QVASnlPMAoGCCqG\nSM49BAMCA0gAMEUCIHr4AD6Xx3R6zFCsveIMnWao9Us88/0uGHoT4ELmMhA1AiEA\nyzfXU5qHp3xBJ1BrKOGi71UmQZVwWfO26INhxcfpCAg=\n-----END CERTIFICATE-----\n\"\xaa\x04-----BEGIN CERTIFICATE-----\nMIIBbDCCARKgAwIBAwICA+gwCgYIKoZIzj0EAwIwEzERMA8GA1UEAwwIcGVlck9y\nZzIwHhcNMTcwMjIwMTkwNjExWhcNMTgwMjIwMTkwNjExWjATMREwDwYDVQQDDAhw\nZWVyT3JnMjBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABH3IweQK1AJdcV3FF27a\ngNKhy13Nz2OguzsmUbW85/7pReenAWzs89rEApHXoJqUtNzdZfaLkcq32E1Ilk3N\noN2jVjBUMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFEhOilIyGA53r9Zo\nO5GQP0RSZcQ1MB8GA1UdIwQYMBaAFEhOilIyGA53r9ZoO5GQP0RSZcQ1MAoGCCqG\nSM49BAMCA0gAMEUCIQD+/5z68ewJarixMgYrg/MwyTMwX7ikCaCgU5TN2MU1PQIg\nQe+klrq6COxsmrctClV64Wj4zhGTOhaZG1yN24OXukQ=\n-----END CERTIFICATE-----\n\x1a\x06Admins\x1a%\n\vAnchorPeers\x12\x16\x12\f\n\n\n\x05peer2\x10\x8b7\x1a\x06Admins\"0\n\aWriters\x12%\x12\x1b\b\x01\x12\x17\x12\b\x12\x06\b\x01\x12\x02\b\x00\x1a\v\x12\t\n\aOrg1MSP\x1a\x06Admins\"1\n\x06Admins\x12'\x12\x1d\b\x01\x12\x19\x12\b\x12\x06\b\x01\x12\x02\b\x00\x1a\r\x12\v\n\aOrg1MSP\x10\x01\x1a\x06Admins\"0\n\aReaders\x12%\x12\x1b\b\x01\x12\x17\x12\b\x12\x06\b\x01\x12\x02\b\x00\x1a\v\x12\t\n\aOrg1MSP\x1a\x06Admins\"\"\n\aReaders\x12\x17\x12\r\b\x03\x12\t\n\aReaders\x1a\x06Admins\"\"\n\aWriters\x12\x17\x12\r\b\x03\x12\t\n\aWriters\x1a\x06Admins\"\"\n\x06Admins\x12\x18\x12\x0e\b\x03\x12\n\n\x06Admins\x10\x02\x1a\x06Admins\x12\x94\r\n\aOrderer\x12\x88\r\x12\xbe\n\n\nOrdererOrg\x12\xaf\n\x1a\x8c\t\n\x03MSP\x12\x84\t\x12\xf9\b\x12\xf6\b\n\nOrdererMSP\x12\xb2\x04-----BEGIN CERTIFICATE-----\nMIIBcjCCARigAwIBAwICA+gwCgYIKoZIzj0EAwIwFjEUMBIGA1UEAwwLb3JkZXJl\nck9yZzAwHhcNMTcwMjIwMTkwNjEwWhcNMTgwMjIwMTkwNjEwWjAWMRQwEgYDVQQD\nDAtvcmRlcmVyT3JnMDBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABK8Sv0EA9h06\nfmBkUCO+D/b/2INZ2huy+W/HCxSF22c7WGoJbRzQcWtQmW1KqZowUk86RcxVfFqv\njEMFVXzV38SjVjBUMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFCVakuvq\nxEcK8pYMf/Hw8hsexRMTMB8GA1UdIwQYMBaAFCVakuvqxEcK8pYMf/Hw8hsexRMT\nMAoGCCqGSM49BAMCA0gAMEUCIQCmXgDSRTyxpSk+PXg0FNlYZ4ijTVwKgLkYVhod\nzZPfngIgO4y0p3Fs/gNsJYrroKaaVDe955KrPp/O55jYDKAD/oY=\n-----END CERTIFICATE-----\n\"\xb2\x04-----BEGIN CERTIFICATE-----\nMIIBcjCCARigAwIBAwICA+gwCgYIKoZIzj0EAwIwFjEUMBIGA1UEAwwLb3JkZXJl\nck9yZzAwHhcNMTcwMjIwMTkwNjEwWhcNMTgwMjIwMTkwNjEwWjAWMRQwEgYDVQQD\nDAtvcmRlcmVyT3JnMDBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABK8Sv0EA9h06\nfmBkUCO+D/b/2INZ2huy+W/HCxSF22c7WGoJbRzQcWtQmW1KqZowUk86RcxVfFqv\njEMFVXzV38SjVjBUMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFCVakuvq\nxEcK8pYMf/Hw8hsexRMTMB8GA1UdIwQYMBaAFCVakuvqxEcK8pYMf/Hw8hsexRMT\nMAoGCCqGSM49BAMCA0gAMEUCIQCmXgDSRTyxpSk+PXg0FNlYZ4ijTVwKgLkYVhod\nzZPfngIgO4y0p3Fs/gNsJYrroKaaVDe955KrPp/O55jYDKAD/oY=\n-----END CERTIFICATE-----\n\x1a\x06Admins\"4\n\x06Admins\x12*\x12 \b\x01\x12\x1c\x12\b\x12\x06\b\x01\x12\x02\b\x00\x1a\x10\x12\x0e\n\nOrdererMSP\x10\x01\x1a\x06Admins\"3\n\aReaders\x12(\x12\x1e\b\x01\x12\x1a\x12\b\x12\x06\b\x01\x12\x02\b\x00\x1a\x0e\x12\f\n\nOrdererMSP\x1a\x06Admins\"3\n\aWriters\x12(\x12\x1e\b\x01\x12\x1a\x12\b\x12\x06\b\x01\x12\x02\b\x00\x1a\x0e\x12\f\n\nOrdererMSP\x1a\x06Admins\x1a\x1e\n\fBatchTimeout\x12\x0e\x12\x04\n\x022s\x1a\x06Admins\x1a\x1f\n\x13ChannelRestrictions\x12\b\x1a\x06Admins\x1a!\n\rConsensusType\x12\x10\x12\x06\n\x04solo\x1a\x06Admins\x1a%\n\x0eCreationPolicy\x12\x13\x12\x11\n\x0fAcceptAllPolicy\x1a\"\n\tBatchSize\x12\x15\x12\v\b\n\x10\x80\x80\xc01\x18\x80\x80 \x1a\x06Admins\"\"\n\x06Admins\x12\x18\x12\x0e\b\x03\x12\n\n\x06Admins\x10\x02\x1a\x06Admins\"*\n\x0fBlockValidation\x12\x17\x12\r\b\x03\x12\t\n\aWriters\x1a\x06Admins\"\"\n\aReaders\x12\x17\x12\r\b\x03\x12\t\n\aReaders\x1a\x06Admins\"\"\n\aWriters\x12\x17\x12\r\b\x03\x12\t\n\aWriters\x1a\x06Admins\x1a-\n\x19BlockDataHashingStructure\x12\x10\x12\x06\b\xff\xff\xff\xff\x0f\x1a\x06Admins\x1a-\n\x10OrdererAddresses\x12\x19\x12\x0f\n\rorderer0:7050\x1a\x06Admins\x1a&\n\x10HashingAlgorithm\x12\x12\x12\b\n\x06SHA256\x1a\x06Admins\"\"\n\aReaders\x12\x17\x12\r\b\x03\x12\t\n\aReaders\x1a\x06Admins\"\"\n\aWriters\x12\x17\x12\r\b\x03\x12\t\n\aWriters\x1a\x06Admins\"\"\n\x06Admins\x12\x18\x12\x0e\b\x03\x12\n\n\x06Admins\x10\x02\x1a\x06Admins\"%\n\x0fAcceptAllPolicy\x12\x12\x12\b\b\x01\x12\x04\x12\x02\x12\x00\x1a\x06Admins\x12-\n \n\x04cert\x12\x18 \x1b\xff\xc3\xfe\x89g*\x04Ld($\x9fxZ\xbeMo\"*\xf0\xf6\x9b\x12\tsignature\x12\tsignature" 2:"0E\x02!\x00\xd2$\x89\x80@<\xfd\xfa\xe8\x94:O\\\xb9\x13\x94\x04l\x9e̪U\xc98=/\x13!\xaa7#\xad\x02 U\x91A_\xb3\x18ϯ\x8d\x04\xbaBI[\aB\x82ĉD\x98\xd7{\x16J\xc8\xc8ܮP\\Q" >metadata:<metadata:"" metadata:"" metadata:"" metadata:"" > 
+2017-03-29 07:56:45.640 UTC [main] main -> INFO 00a[0m Exiting.....
+===================== Channel "mychannel" is created successfully ===================== 
+
+CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer0/localMspConfig/cacerts/peerOrg0.pem
+CORE_PEER_TLS_KEY_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer0/localMspConfig/keystore/peer0Signer.pem
+CORE_PEER_LOCALMSPID=Org0MSP
+CORE_VM_ENDPOINT=unix:///host/var/run/docker.sock
+CORE_PEER_TLS_CERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer0/localMspConfig/signcerts/peer0Signer.pem
+CORE_PEER_ADDRESSAUTODETECT=true
+CORE_PEER_TLS_ENABLED=true
+CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer0/localMspConfig
+CORE_PEER_ID=cli
+CORE_LOGGING_LEVEL=DEBUG
+CORE_PEER_ADDRESS=peer0:7051
+CORE_PEER_ENDORSER_ENABLED=true
+CORE_NEXT=true
+[36m2017-03-29 07:56:45.684 UTC [logging] InitFromViper -> DEBU 001[0m Setting default logging level to DEBUG for command 'channel'
+[36m2017-03-29 07:56:45.684 UTC [msp] GetLocalMSP -> DEBU 002[0m Returning existing local MSP
+[36m2017-03-29 07:56:45.685 UTC [msp] GetDefaultSigningIdentity -> DEBU 003[0m Obtaining default signing identity
+[36m2017-03-29 07:56:45.690 UTC [msp] Sign -> DEBU 004[0m Sign: plaintext: 0A84050A4E08012A4065666635623536...C8DCAE505C511A080A000A000A000A00 
+[36m2017-03-29 07:56:45.690 UTC [msp] Sign -> DEBU 005[0m Sign: digest: 3D5825D1F0F170F71639392F51755F67800782310E303E3115D92DF5AA029C04 
+Join Result: 
+2017-03-29 07:56:45.733 UTC [main] main -> INFO 006[0m Exiting.....
+===================== PEER0 joined on the channel "mychannel" ===================== 
+
+CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer1/localMspConfig/cacerts/peerOrg0.pem
+CORE_PEER_TLS_KEY_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer0/localMspConfig/keystore/peer0Signer.pem
+CORE_PEER_LOCALMSPID=Org0MSP
+CORE_VM_ENDPOINT=unix:///host/var/run/docker.sock
+CORE_PEER_TLS_CERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer0/localMspConfig/signcerts/peer0Signer.pem
+CORE_PEER_ADDRESSAUTODETECT=true
+CORE_PEER_TLS_ENABLED=true
+CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer1/localMspConfig
+CORE_PEER_ID=cli
+CORE_LOGGING_LEVEL=DEBUG
+CORE_PEER_ADDRESS=peer1:7051
+CORE_PEER_ENDORSER_ENABLED=true
+CORE_NEXT=true
+[36m2017-03-29 07:56:47.771 UTC [logging] InitFromViper -> DEBU 001[0m Setting default logging level to DEBUG for command 'channel'
+[36m2017-03-29 07:56:47.771 UTC [msp] GetLocalMSP -> DEBU 002[0m Returning existing local MSP
+[36m2017-03-29 07:56:47.771 UTC [msp] GetDefaultSigningIdentity -> DEBU 003[0m Obtaining default signing identity
+[36m2017-03-29 07:56:47.791 UTC [msp] Sign -> DEBU 004[0m Sign: plaintext: 0A84050A4E08012A4065613964363135...C8DCAE505C511A080A000A000A000A00 
+[36m2017-03-29 07:56:47.791 UTC [msp] Sign -> DEBU 005[0m Sign: digest: 554E7414B08F6B2D9F81A1C6D9691E428E484C30B9407F64451F38F01873B033 
+Join Result: 
+2017-03-29 07:56:47.832 UTC [main] main -> INFO 006[0m Exiting.....
+===================== PEER1 joined on the channel "mychannel" ===================== 
+
+CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer2/localMspConfig/cacerts/peerOrg1.pem
+CORE_PEER_TLS_KEY_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer0/localMspConfig/keystore/peer0Signer.pem
+CORE_PEER_LOCALMSPID=Org1MSP
+CORE_VM_ENDPOINT=unix:///host/var/run/docker.sock
+CORE_PEER_TLS_CERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer0/localMspConfig/signcerts/peer0Signer.pem
+CORE_PEER_ADDRESSAUTODETECT=true
+CORE_PEER_TLS_ENABLED=true
+CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer2/localMspConfig
+CORE_PEER_ID=cli
+CORE_LOGGING_LEVEL=DEBUG
+CORE_PEER_ADDRESS=peer2:7051
+CORE_PEER_ENDORSER_ENABLED=true
+CORE_NEXT=true
+[36m2017-03-29 07:56:49.869 UTC [logging] InitFromViper -> DEBU 001[0m Setting default logging level to DEBUG for command 'channel'
+[36m2017-03-29 07:56:49.869 UTC [msp] GetLocalMSP -> DEBU 002[0m Returning existing local MSP
+[36m2017-03-29 07:56:49.869 UTC [msp] GetDefaultSigningIdentity -> DEBU 003[0m Obtaining default signing identity
+[36m2017-03-29 07:56:49.873 UTC [msp] Sign -> DEBU 004[0m Sign: plaintext: 0A84050A4E08012A4032383931613930...C8DCAE505C511A080A000A000A000A00 
+[36m2017-03-29 07:56:49.873 UTC [msp] Sign -> DEBU 005[0m Sign: digest: 6741F24EDB6F885BCD1B50833FD4AA25C2A10CAB65A553B8DC8FA9B246E98C5F 
+Join Result: 
+2017-03-29 07:56:49.911 UTC [main] main -> INFO 006[0m Exiting.....
+===================== PEER2 joined on the channel "mychannel" ===================== 
+
+CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer3/localMspConfig/cacerts/peerOrg1.pem
+CORE_PEER_TLS_KEY_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer0/localMspConfig/keystore/peer0Signer.pem
+CORE_PEER_LOCALMSPID=Org1MSP
+CORE_VM_ENDPOINT=unix:///host/var/run/docker.sock
+CORE_PEER_TLS_CERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer0/localMspConfig/signcerts/peer0Signer.pem
+CORE_PEER_ADDRESSAUTODETECT=true
+CORE_PEER_TLS_ENABLED=true
+CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer3/localMspConfig
+CORE_PEER_ID=cli
+CORE_LOGGING_LEVEL=DEBUG
+CORE_PEER_ADDRESS=peer3:7051
+CORE_PEER_ENDORSER_ENABLED=true
+CORE_NEXT=true
+[36m2017-03-29 07:56:51.947 UTC [logging] InitFromViper -> DEBU 001[0m Setting default logging level to DEBUG for command 'channel'
+[36m2017-03-29 07:56:51.947 UTC [msp] GetLocalMSP -> DEBU 002[0m Returning existing local MSP
+[36m2017-03-29 07:56:51.947 UTC [msp] GetDefaultSigningIdentity -> DEBU 003[0m Obtaining default signing identity
+[36m2017-03-29 07:56:51.971 UTC [msp] Sign -> DEBU 004[0m Sign: plaintext: 0A84050A4E08012A4030383030393332...C8DCAE505C511A080A000A000A000A00 
+[36m2017-03-29 07:56:51.971 UTC [msp] Sign -> DEBU 005[0m Sign: digest: 77E0562FF8953E6FCA3B65CFC61B62CE3A9DFAB49D00E4B644AD10A3A42A5225 
+Join Result: 
+2017-03-29 07:56:52.016 UTC [main] main -> INFO 006[0m Exiting.....
+===================== PEER3 joined on the channel "mychannel" ===================== 
+
+CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer0/localMspConfig/cacerts/peerOrg0.pem
+CORE_PEER_TLS_KEY_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer0/localMspConfig/keystore/peer0Signer.pem
+CORE_PEER_LOCALMSPID=Org0MSP
+CORE_VM_ENDPOINT=unix:///host/var/run/docker.sock
+CORE_PEER_TLS_CERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer0/localMspConfig/signcerts/peer0Signer.pem
+CORE_PEER_ADDRESSAUTODETECT=true
+CORE_PEER_TLS_ENABLED=true
+CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer0/localMspConfig
+CORE_PEER_ID=cli
+CORE_LOGGING_LEVEL=DEBUG
+CORE_PEER_ADDRESS=peer0:7051
+CORE_PEER_ENDORSER_ENABLED=true
+CORE_NEXT=true
+[36m2017-03-29 07:56:54.052 UTC [logging] InitFromViper -> DEBU 001[0m Setting default logging level to DEBUG for command 'chaincode'
+[36m2017-03-29 07:56:54.056 UTC [msp] GetLocalMSP -> DEBU 002[0m Returning existing local MSP
+[36m2017-03-29 07:56:54.056 UTC [msp] GetDefaultSigningIdentity -> DEBU 003[0m Obtaining default signing identity
+[36m2017-03-29 07:56:54.056 UTC [golang-platform] collectChaincodeFiles -> DEBU 004[0m not using input for hash computation for path:"github.com/hyperledger/fabric/examples/chaincode/go/chaincode_example02" name:"mycc" version:"1.0"  
+[36m2017-03-29 07:56:54.056 UTC [golang-platform] getCodeFromFS -> DEBU 005[0m getCodeFromFS github.com/hyperledger/fabric/examples/chaincode/go/chaincode_example02
+[36m2017-03-29 07:56:54.056 UTC [util] HashFilesInDir -> DEBU 006[0m hashFiles /opt/gopath/src/github.com/hyperledger/fabric/examples/chaincode/go/chaincode_example02
+2017-03-29 07:56:54.057 UTC [golang-platform] writeGopathSrc -> INFO 007[0m rootDirectory = /opt/gopath/src
+2017-03-29 07:56:54.057 UTC [container] WriteFolderToTarPackage -> INFO 008[0m rootDirectory = /opt/gopath/src
+[36m2017-03-29 07:56:54.071 UTC [msp] Sign -> DEBU 009[0m Sign: plaintext: 0A84050A4E08032A4037363935653561...7F647C060000FFFFDB4FAF3C009A0400 
+[36m2017-03-29 07:56:54.071 UTC [msp] Sign -> DEBU 00a[0m Sign: digest: D6CE095A279252F85278AE10A6C8870EB36D9DE6226D302D455657159A8289D8 
+[36m2017-03-29 07:56:54.078 UTC [chaincodeCmd] install -> DEBU 00b[0m Installed remotely %v response:<status:200 payload:"OK" > 
+2017-03-29 07:56:54.078 UTC [main] main -> INFO 00c[0m Exiting.....
+===================== Chaincode is installed on remote peer PEER0 ===================== 
+
+CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer2/localMspConfig/cacerts/peerOrg1.pem
+CORE_PEER_TLS_KEY_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer0/localMspConfig/keystore/peer0Signer.pem
+CORE_PEER_LOCALMSPID=Org1MSP
+CORE_VM_ENDPOINT=unix:///host/var/run/docker.sock
+CORE_PEER_TLS_CERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer0/localMspConfig/signcerts/peer0Signer.pem
+CORE_PEER_ADDRESSAUTODETECT=true
+CORE_PEER_TLS_ENABLED=true
+CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer2/localMspConfig
+CORE_PEER_ID=cli
+CORE_LOGGING_LEVEL=DEBUG
+CORE_PEER_ADDRESS=peer2:7051
+CORE_PEER_ENDORSER_ENABLED=true
+CORE_NEXT=true
+[36m2017-03-29 07:56:54.111 UTC [logging] InitFromViper -> DEBU 001[0m Setting default logging level to DEBUG for command 'chaincode'
+[36m2017-03-29 07:56:54.114 UTC [msp] GetLocalMSP -> DEBU 002[0m Returning existing local MSP
+[36m2017-03-29 07:56:54.114 UTC [msp] GetDefaultSigningIdentity -> DEBU 003[0m Obtaining default signing identity
+[36m2017-03-29 07:56:54.115 UTC [golang-platform] collectChaincodeFiles -> DEBU 004[0m not using input for hash computation for path:"github.com/hyperledger/fabric/examples/chaincode/go/chaincode_example02" name:"mycc" version:"1.0"  
+[36m2017-03-29 07:56:54.115 UTC [golang-platform] getCodeFromFS -> DEBU 005[0m getCodeFromFS github.com/hyperledger/fabric/examples/chaincode/go/chaincode_example02
+[36m2017-03-29 07:56:54.115 UTC [util] HashFilesInDir -> DEBU 006[0m hashFiles /opt/gopath/src/github.com/hyperledger/fabric/examples/chaincode/go/chaincode_example02
+2017-03-29 07:56:54.115 UTC [golang-platform] writeGopathSrc -> INFO 007[0m rootDirectory = /opt/gopath/src
+2017-03-29 07:56:54.115 UTC [container] WriteFolderToTarPackage -> INFO 008[0m rootDirectory = /opt/gopath/src
+[36m2017-03-29 07:56:54.129 UTC [msp] Sign -> DEBU 009[0m Sign: plaintext: 0A84050A4E08032A4030653630636162...7F647C060000FFFFDB4FAF3C009A0400 
+[36m2017-03-29 07:56:54.129 UTC [msp] Sign -> DEBU 00a[0m Sign: digest: 163092DCC96DED9BF0E2AE4712705DA284B6EAC9D9A62D9424D0CE53A3D75449 
+[36m2017-03-29 07:56:54.135 UTC [chaincodeCmd] install -> DEBU 00b[0m Installed remotely %v response:<status:200 payload:"OK" > 
+2017-03-29 07:56:54.135 UTC [main] main -> INFO 00c[0m Exiting.....
+===================== Chaincode is installed on remote peer PEER2 ===================== 
+
+Instantiating chaincode on Peer2/Org1 ...
+CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer2/localMspConfig/cacerts/peerOrg1.pem
+CORE_PEER_TLS_KEY_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer0/localMspConfig/keystore/peer0Signer.pem
+CORE_PEER_LOCALMSPID=Org1MSP
+CORE_VM_ENDPOINT=unix:///host/var/run/docker.sock
+CORE_PEER_TLS_CERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer0/localMspConfig/signcerts/peer0Signer.pem
+CORE_PEER_ADDRESSAUTODETECT=true
+CORE_PEER_TLS_ENABLED=true
+CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer2/localMspConfig
+CORE_PEER_ID=cli
+CORE_LOGGING_LEVEL=DEBUG
+CORE_PEER_ADDRESS=peer2:7051
+CORE_PEER_ENDORSER_ENABLED=true
+CORE_NEXT=true
+[36m2017-03-29 07:56:54.168 UTC [logging] InitFromViper -> DEBU 001[0m Setting default logging level to DEBUG for command 'chaincode'
+[36m2017-03-29 07:56:54.171 UTC [msp] GetLocalMSP -> DEBU 002[0m Returning existing local MSP
+[36m2017-03-29 07:56:54.171 UTC [msp] GetDefaultSigningIdentity -> DEBU 003[0m Obtaining default signing identity
+2017-03-29 07:56:54.175 UTC [chaincodeCmd] checkChaincodeCmdParams -> INFO 004[0m Using default escc
+2017-03-29 07:56:54.175 UTC [chaincodeCmd] checkChaincodeCmdParams -> INFO 005[0m Using default vscc
+[36m2017-03-29 07:56:54.175 UTC [msp] Sign -> DEBU 006[0m Sign: plaintext: 0A8F050A59080322096D796368616E6E...314D53500A04657363630A0476736363 
+[36m2017-03-29 07:56:54.175 UTC [msp] Sign -> DEBU 007[0m Sign: digest: 55CA17E4A80F2202521CCF50F6A8DA6209900BDABCF6B14662A4D191157C0226 
+[36m2017-03-29 07:57:15.456 UTC [msp] Sign -> DEBU 008[0m Sign: plaintext: 0A8F050A59080322096D796368616E6E...A7EF9F335B40324F57C33F2DDDAD429D 
+[36m2017-03-29 07:57:15.456 UTC [msp] Sign -> DEBU 009[0m Sign: digest: 88ABDB2D3A21E05F3A7E62213F849F33FF16E53D101EA58354CFBCA2C1FCFEF2 
+2017-03-29 07:57:15.458 UTC [main] main -> INFO 00a[0m Exiting.....
+===================== Chaincode Instantiation on PEER2 on channel 'mychannel' is successful ===================== 
+
+===================== Querying on PEER0 on channel 'mychannel'... ===================== 
+CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer0/localMspConfig/cacerts/peerOrg0.pem
+CORE_PEER_TLS_KEY_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer0/localMspConfig/keystore/peer0Signer.pem
+CORE_PEER_LOCALMSPID=Org0MSP
+CORE_VM_ENDPOINT=unix:///host/var/run/docker.sock
+CORE_PEER_TLS_CERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer0/localMspConfig/signcerts/peer0Signer.pem
+CORE_PEER_ADDRESSAUTODETECT=true
+CORE_PEER_TLS_ENABLED=true
+CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer0/localMspConfig
+CORE_PEER_ID=cli
+CORE_LOGGING_LEVEL=DEBUG
+CORE_PEER_ADDRESS=peer0:7051
+CORE_PEER_ENDORSER_ENABLED=true
+CORE_NEXT=true
+Attempting to Query PEER0 ...3 secs
+
+[36m2017-03-29 07:57:18.511 UTC [logging] InitFromViper -> DEBU 001[0m Setting default logging level to DEBUG for command 'chaincode'
+[36m2017-03-29 07:57:18.515 UTC [msp] GetLocalMSP -> DEBU 002[0m Returning existing local MSP
+[36m2017-03-29 07:57:18.515 UTC [msp] GetDefaultSigningIdentity -> DEBU 003[0m Obtaining default signing identity
+[36m2017-03-29 07:57:18.515 UTC [msp] Sign -> DEBU 004[0m Sign: plaintext: 0A8F050A59080322096D796368616E6E...6D7963631A0A0A0571756572790A0161 
+[36m2017-03-29 07:57:18.515 UTC [msp] Sign -> DEBU 005[0m Sign: digest: A7BA9F8F0819BCF8654BE6CFF6254A6DEDC7C9C53AD85368480011CA2EE6F641 
+Query Result: 100
+2017-03-29 07:57:36.464 UTC [main] main -> INFO 006[0m Exiting.....
+===================== Query on PEER0 on channel 'mychannel' is successful ===================== 
+send Invoke transaction on Peer0/Org0 ...
+[36m2017-03-29 07:57:36.509 UTC [logging] InitFromViper -> DEBU 001[0m Setting default logging level to DEBUG for command 'chaincode'
+[36m2017-03-29 07:57:36.513 UTC [msp] GetLocalMSP -> DEBU 002[0m Returning existing local MSP
+[36m2017-03-29 07:57:36.513 UTC [msp] GetDefaultSigningIdentity -> DEBU 003[0m Obtaining default signing identity
+[36m2017-03-29 07:57:36.517 UTC [msp] Sign -> DEBU 004[0m Sign: plaintext: 0A8F050A59080322096D796368616E6E...696E766F6B650A01610A01620A023130 
+[36m2017-03-29 07:57:36.517 UTC [msp] Sign -> DEBU 005[0m Sign: digest: C26EE71BD953E4BEA0F2FBCF54C76FEF2B89B72BEE3DAFA4C122B16307A78E1E 
+[36m2017-03-29 07:57:36.526 UTC [msp] Sign -> DEBU 006[0m Sign: plaintext: 0A8F050A59080322096D796368616E6E...D32B4588FE8BB7D2C833E1869945874C 
+[36m2017-03-29 07:57:36.526 UTC [msp] Sign -> DEBU 007[0m Sign: digest: 2128D2B3327DD209AC89DB6ADD3F7C4EA15897300EB2DA4EF235BEF6F5D515D1 
+2017-03-29 07:57:36.529 UTC [chaincodeCmd] chaincodeInvokeOrQuery -> INFO 008[0m Invoke result: version:1 response:<status:200 message:"OK" > payload:"\n T\215\257[%\321\371\227\267\270\024!B\354h7R\274\223\217\305\273\254B\017Q\265o\006^\226\245\022=\n6\002\004lccc\001\004mycc\004\001\001\001\001\000\000\004mycc\002\001a\004\001\001\001\001\001b\004\001\001\001\001\002\001a\000\00290\001b\000\003210\000\032\003\010\310\001" endorsement:<endorser:"\n\007Org0MSP\022\210\004-----BEGIN -----\nMIIBYzCCAQmgAwIBAwICA+gwCgYIKoZIzj0EAwIwEzERMA8GA1UEAwwIcGVlck9y\nZzAwHhcNMTcwMjIwMTkwNjExWhcNMTgwMjIwMTkwNjExWjAQMQ4wDAYDVQQDDAVw\nZWVyMDBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABEF6dfqjqfbIgZuOR+dgoJMl\n/FaUlGI70A/ixmVUY83Yp4YtV3FDBSOPiO5O+s8pHnpbwB1LqhrxAx1Plr0M/UWj\nUDBOMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFBY2bc84vLEwkX1fSAER2p48jJXw\nMB8GA1UdIwQYMBaAFFQzuQR1RZP/Qn/BNDtGSa8n4eN/MAoGCCqGSM49BAMCA0gA\nMEUCIQDeDZ71L+OTYcbbqiDNRf0L8OExO59mH1O3xpdwMAM0MgIgXySG4sv9yV31\nWcWRFfRFyu7o3T72kqiLZ1nkDuJ8jWI=\n-----END -----\n" signature:"0D\002 u\234\206\3461KW\227\210\277\224\321B\237i\007\023\030\005\260Z$\230H[\210\005\301\226&\306!\002 \020QUMr\350\222\307\362\"\304$\224\340\370]\323+E\210\376\213\267\322\3103\341\206\231E\207L" > 
+2017-03-29 07:57:36.530 UTC [main] main -> INFO 009[0m Exiting.....
+===================== Invoke transaction on PEER0 on channel 'mychannel' is successful ===================== 
+
+CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer3/localMspConfig/cacerts/peerOrg1.pem
+CORE_PEER_TLS_KEY_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer0/localMspConfig/keystore/peer0Signer.pem
+CORE_PEER_LOCALMSPID=Org1MSP
+CORE_VM_ENDPOINT=unix:///host/var/run/docker.sock
+CORE_PEER_TLS_CERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer0/localMspConfig/signcerts/peer0Signer.pem
+CORE_PEER_ADDRESSAUTODETECT=true
+CORE_PEER_TLS_ENABLED=true
+CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer3/localMspConfig
+CORE_PEER_ID=cli
+CORE_LOGGING_LEVEL=DEBUG
+CORE_PEER_ADDRESS=peer3:7051
+CORE_PEER_ENDORSER_ENABLED=true
+CORE_NEXT=true
+[36m2017-03-29 07:57:36.572 UTC [logging] InitFromViper -> DEBU 001[0m Setting default logging level to DEBUG for command 'chaincode'
+[36m2017-03-29 07:57:36.576 UTC [msp] GetLocalMSP -> DEBU 002[0m Returning existing local MSP
+[36m2017-03-29 07:57:36.576 UTC [msp] GetDefaultSigningIdentity -> DEBU 003[0m Obtaining default signing identity
+[36m2017-03-29 07:57:36.576 UTC [golang-platform] collectChaincodeFiles -> DEBU 004[0m not using input for hash computation for path:"github.com/hyperledger/fabric/examples/chaincode/go/chaincode_example02" name:"mycc" version:"1.0"  
+[36m2017-03-29 07:57:36.576 UTC [golang-platform] getCodeFromFS -> DEBU 005[0m getCodeFromFS github.com/hyperledger/fabric/examples/chaincode/go/chaincode_example02
+[36m2017-03-29 07:57:36.576 UTC [util] HashFilesInDir -> DEBU 006[0m hashFiles /opt/gopath/src/github.com/hyperledger/fabric/examples/chaincode/go/chaincode_example02
+2017-03-29 07:57:36.578 UTC [golang-platform] writeGopathSrc -> INFO 007[0m rootDirectory = /opt/gopath/src
+2017-03-29 07:57:36.578 UTC [container] WriteFolderToTarPackage -> INFO 008[0m rootDirectory = /opt/gopath/src
+[36m2017-03-29 07:57:36.615 UTC [msp] Sign -> DEBU 009[0m Sign: plaintext: 0A84050A4E08032A4037393337376361...7F647C060000FFFFDB4FAF3C009A0400 
+[36m2017-03-29 07:57:36.615 UTC [msp] Sign -> DEBU 00a[0m Sign: digest: A9E473E28666DA26A865D40FC32511F8A5686373562ADEC2935003670B66EED9 
+[36m2017-03-29 07:57:36.621 UTC [chaincodeCmd] install -> DEBU 00b[0m Installed remotely %v response:<status:200 payload:"OK" > 
+2017-03-29 07:57:36.621 UTC [main] main -> INFO 00c[0m Exiting.....
+===================== Chaincode is installed on remote peer PEER3 ===================== 
+
+===================== Querying on PEER3 on channel 'mychannel'... ===================== 
+CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer3/localMspConfig/cacerts/peerOrg1.pem
+CORE_PEER_TLS_KEY_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer0/localMspConfig/keystore/peer0Signer.pem
+CORE_PEER_LOCALMSPID=Org1MSP
+CORE_VM_ENDPOINT=unix:///host/var/run/docker.sock
+CORE_PEER_TLS_CERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer0/localMspConfig/signcerts/peer0Signer.pem
+CORE_PEER_ADDRESSAUTODETECT=true
+CORE_PEER_TLS_ENABLED=true
+CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer3/localMspConfig
+CORE_PEER_ID=cli
+CORE_LOGGING_LEVEL=DEBUG
+CORE_PEER_ADDRESS=peer3:7051
+CORE_PEER_ENDORSER_ENABLED=true
+CORE_NEXT=true
+Attempting to Query PEER3 ...3 secs
+
+[36m2017-03-29 07:57:39.661 UTC [logging] InitFromViper -> DEBU 001[0m Setting default logging level to DEBUG for command 'chaincode'
+[36m2017-03-29 07:57:39.665 UTC [msp] GetLocalMSP -> DEBU 002[0m Returning existing local MSP
+[36m2017-03-29 07:57:39.665 UTC [msp] GetDefaultSigningIdentity -> DEBU 003[0m Obtaining default signing identity
+[36m2017-03-29 07:57:39.665 UTC [msp] Sign -> DEBU 004[0m Sign: plaintext: 0A8F050A59080322096D796368616E6E...6D7963631A0A0A0571756572790A0161 
+[36m2017-03-29 07:57:39.665 UTC [msp] Sign -> DEBU 005[0m Sign: digest: 052F9838564480BE2B7C668335BBBC3293F6CA721D8C3B49CC3DFE85DD4765F6 
+Query Result: 90
+2017-03-29 07:57:57.427 UTC [main] main -> INFO 006[0m Exiting.....
+===================== Query on PEER3 on channel 'mychannel' is successful ===================== 
+
+===================== All GOOD, End-2-End execution completed ===================== 
+
