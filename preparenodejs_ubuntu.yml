@@ -19,7 +19,8 @@
     #   become: yes
     - name: install nvm
       shell: curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash
-
+      args:
+        executable: /bin/bash
     - name: execute nvm
       shell: nvm install v6.9.5
       args:
