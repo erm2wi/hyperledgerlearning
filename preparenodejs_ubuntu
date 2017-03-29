@@ -1,0 +1,28 @@
+#- name: install git 
+    #  yum: name=git state=present
+    - name: make directory
+      file: path="/home/{{ansible_ssh_user}}/test" state=directory
+    - name: download the test script
+      get_url:
+        url: "https://raw.githubusercontent.com/hyperledger/fabric/master/examples/sfhackfest/sfhackfest.tar.gz"
+        dest: "/home/{{ansible_ssh_user}}/test/sfhackfest.tar.gz"
+    - name: Extract the tar
+      unarchive: 
+        src: "/home/{{ansible_ssh_user}}/test/sfhackfest.tar.gz"
+        dest: "/home/{{ansible_ssh_user}}/test"
+        copy: no
+    # Not clone the source code at this time
+    #- name: git clone the resository
+    #  command: git clone ssh://halminhu@gerrit.hyperledger.org:29418/fabric && scp -p -P 29418 halminhu@gerrit.hyperledger.org:hooks/commit-msg fabric/.git/hooks/
+    - name: install gcc-c++ for node.js
+      yum: name=gcc-c++ sate=present
+      become: yes
+    - name: install make for node.js
+      yum: name=make sate=present
+      become: yes
+    - name: install nvm
+      command: curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash
+    - name: load nvm
+      command: export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+    - name: install node.js
+      command: nvm install v6.9.5
