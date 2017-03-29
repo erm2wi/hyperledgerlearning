@@ -19,9 +19,12 @@
           - software-properties-common
     - name: Add Docker’s official GPG key
       apt_key: url="https://download.docker.com/linux/ubuntu/gpg" state=present
+    - name: Get ubuntu release name
+      shell: lsb_release -cs
+      register: releasename
     - name: add repository
       apt_repository:
-        repo: deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable
+        repo: deb [arch=amd64] https://download.docker.com/linux/ubuntu {{releasename}} stable
         state: present
     - name: update apt cache
       command: apt-get update 
