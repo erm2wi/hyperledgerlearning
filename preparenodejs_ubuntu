@@ -11,15 +11,8 @@
     # - name: install make for node.js
     #   yum: name=make sate=present
     #   become: yes
-    - name: install nvm
-      shell: curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash
-      args:
-        executable: /bin/bash
-    - name: load nvm
-      shell: export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-      args:
-        executable: /bin/bash
-    - name: install node.js
-      shell: nvm install v6.9.5
-      args:
-        executable: /bin/bash
+    - name: install initialization
+      command: curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+    - name: start install
+      apt: nodejs=6.9.5
+      become: yes
