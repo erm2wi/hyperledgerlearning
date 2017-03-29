@@ -15,7 +15,10 @@
       git: 
         repo: https://github.com/hyperledger/fabric.git
         dest: "{{golang_path}}/src/github.com/hyperledger/fabric"
-
+    - name: install packages to avoid
+      apt: name= "libtool libltdl-dev"
+      become: yes
+      
     # - name: make directory
     #   file: path="/home/{{ansible_ssh_user}}/test" state=directory
     # - name: download the test script
