@@ -7,6 +7,8 @@
       apt: name=python-pip
     - name: install pip packages
       pip: name="behave nose docker-compose"
+    - name: install apt library needed
+      apt: name="build-essential,libssl-dev,libffi-dev,python-dev"
     - name: install 1st additional packages
       pip: name="flask==0.10.1 python-dateutil==2.2 pytz==2014.3 pyyaml==3.10 couchdb==1.0 flask-cors==2.0.1 requests==2.4.3 pyOpenSSL==16.2.0 pysha3==1.0b1 grpcio==1.0.4"
     - name: install 2nd pip packages
