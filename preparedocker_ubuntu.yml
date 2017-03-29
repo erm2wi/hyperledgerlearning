@@ -24,7 +24,7 @@
       register: releasename
     - name: debug
       debug: 
-        msg:"the release is {{releasename}}"
+        msg: "the release is {{releasename}}"
     # - name: add repository
     #   apt_repository:
     #     repo: deb [arch=amd64] https://download.docker.com/linux/ubuntu {{releasename}} stable
