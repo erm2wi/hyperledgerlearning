@@ -23,5 +23,7 @@
       apt_repository:
         repo: deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable
         state: present
+    - name: update apt cache
+      command: apt-get update 
     - name: install docker-ce
-      apt: name=docker-ce state=present update_cache=yes
+      apt: name=docker-ce state=present
