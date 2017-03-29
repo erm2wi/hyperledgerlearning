@@ -16,4 +16,4 @@
     - name: load nvm
       shell: export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
     - name: install node.js
-      command: nvm install v6.9.5
+      shell: nvm install v6.9.5
