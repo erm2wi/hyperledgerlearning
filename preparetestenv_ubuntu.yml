@@ -16,7 +16,7 @@
         repo: https://github.com/hyperledger/fabric.git
         dest: "{{golang_path}}/src/github.com/hyperledger/fabric"
     - name: install packages to avoid build error
-      apt: name= "libtool,libltdl-dev"
+      apt: name= "libtool,libltdl-dev" state=present
       become: yes
       
     # - name: make directory
